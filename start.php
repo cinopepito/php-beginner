@@ -16,5 +16,19 @@ $chaine = "ceci est une chaine de caractere";
 // echo substr($chaine,-10) .'br>'
 //remplacer une partie de la chaine du caractere
 $chaine=str_replace('ceci','cela',$chaine).'br>';
-var_dump(str)
+//while loop
+$nligne=0;
+while($nligne<10){
+    echo 'ceci est la ligne' . ' '. $nligne .'<br>';
+    $nligne++;
+}
+//for loop
+for($nline=0;$nline<50;$nline++){
+    echo $nline . '<br>';
+}
+//
+$annee = date("Y");
+echo $annee .'<br>';
+$hour= date("H");
+echo $hour;
 ?>
